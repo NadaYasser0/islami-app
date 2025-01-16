@@ -6,6 +6,7 @@ import '../Widgets/sebha_item.dart';
 
 class Sebha extends StatefulWidget {
   Sebha({super.key});
+
   static String route = "sebha";
 
   @override
@@ -13,8 +14,6 @@ class Sebha extends StatefulWidget {
 }
 
 class _SebhaState extends State<Sebha> {
-
-
   @override
   Widget build(BuildContext context) {
     return Column(

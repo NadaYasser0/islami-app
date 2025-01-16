@@ -12,7 +12,12 @@ class SebhaItem extends StatefulWidget {
 
 class _SebhaItemState extends State<SebhaItem> {
   int counter = 0;
-  List<String> title = ["سبحان الله", "الحمد لله", "لا اله الا الله", "الله اكبر"];
+  List<String> title = [
+    "سبحان الله",
+    "الحمد لله",
+    "لا اله الا الله",
+    "الله اكبر"
+  ];
   double rotationAngle = 0;
   String currentTitle = "سبحان الله";
 
@@ -29,6 +34,7 @@ class _SebhaItemState extends State<SebhaItem> {
       }
     });
   }
+
   @override
   Widget build(BuildContext context) {
     return Stack(
